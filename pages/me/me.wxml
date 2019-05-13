@@ -1,0 +1,22 @@
+<!--pages/me/me.wxml-->
+<view>
+{{num}}
+{{person.name}}---{{person.age}}
+</view>
+<text>Hello world! || {{msg}}</text>
+<view>
+<checkbox checked='{{isChecked?false:true}}'></checkbox>
+</view>
+<view>
+{{num1+num2}} || {{str1+str2}}
+</view>
+<view>
+<view wx:for="{{arr}}" wx:key="{{index}}">
+{{index}}--{{item}}
+</view>
+<view>
+<view wx:for="{{person}}" wx:key="{{index}}">
+{{index}}--{{item}}
+</view>
+</view>
+</view>

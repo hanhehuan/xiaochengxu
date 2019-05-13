@@ -1,0 +1,42 @@
+{
+ "pages": [
+  "pages/index/index",
+  "pages/logs/logs",
+  "pages/me/me",
+  "pages/firstpage/firstpage"
+
+ 
+ 
+],
+"window": {
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#0094ff",
+  "navigationBarTitleText": "微信学习首页",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+},
+"tabBar": {
+  "color":"#000",
+  "selectedColor":"#0061b0",
+  "list": [
+    {
+    "pagePath": "pages/index/index",
+    "text": "首页",
+    "iconPath": "icons/index.png",
+    "selectedIconPath": "icons/index_active.png"
+  },
+  {
+    "pagePath": "pages/logs/logs",
+    "text": "日志",
+    "iconPath": "icons/log.png",
+    "selectedIconPath": "icons/log_active.png"
+  }
+  ,{
+    "pagePath": "pages/me/me",
+    "text": "我",
+    "iconPath": "icons/me.png",
+    "selectedIconPath": "icons/me_active.png"
+  }
+  ]
+}
+}
