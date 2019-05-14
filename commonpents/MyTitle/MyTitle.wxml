@@ -1,17 +1,17 @@
 <view class="my_title">
 <!-- logo -->
 <navigator class='logo'>
-<image class='logo_img' src='../../icons/logo.png'>
+<image class='logo_img' style='width:140rpx;height:60rpx;' src='../../icons/logo.png'>
 
 </image>
 </navigator>
 <!-- seacr -->
 <view class='search_icon'>
-<image src='../../icons/search.png'></image>
+<image style='width:60rpx;height:44rpx;' src='../../icons/search.png'></image>
 </view>
 <!-- user -->
 <view class='user_icon'>
-<image src='../../icons/user.png'></image>
+<image style='width:54rpx;height:60rpx;' src='../../icons/user.png'></image>
 </view>
 <!-- down -->
 <view class='down_app'>

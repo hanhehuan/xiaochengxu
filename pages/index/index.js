@@ -4,14 +4,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    //首页导航数据
+    navList:[]
   },
-
+  /**
+   * 获取首页导航数据
+   */
+  getNavList(){
+    wx.request({
+      url: 'https://easy-mock.com/mock/Sc1dfd98e8bfa547414a5278/bili/navList',
+      success(res){
+        console.log(res);
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    this.navList=getNavList();
   },
 
   /**
